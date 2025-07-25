@@ -1,0 +1,316 @@
+{
+  "plans": [
+    {
+      "planId": "couch-to-5k",
+      "name": "Couch to 5K",
+      "description": "A 9-week beginner-friendly program to help you run 5K continuously",
+      "difficulty": "beginner",
+      "duration": "9 weeks",
+      "sessionsPerWeek": 3,
+      "totalSessions": 27,
+      "goalDistance": "5K",
+      "weeks": [
+        {
+          "weekNumber": 1,
+          "focus": "Building endurance with short running intervals",
+          "description": "Your first week introduces you to running with short, manageable 60-second intervals. This gentle start helps your body adapt gradually to the new activity.",
+          "runs": [
+            {
+              "runNumber": 1,
+              "title": "First Steps",
+              "description": "Your first running session with short intervals",
+              "totalDurationMinutes": 23,
+              "estimatedDistanceKm": 2.5,
+              "segments": [
+                {
+                  "type": "warmup",
+                  "activity": "brisk walk",
+                  "duration": 300,
+                  "distanceKm": 0.4,
+                  "audio": [
+                    {
+                      "timeOffset": 0,
+                      "message": "Let's start with a five-minute brisk walk to warm up your muscles. Keep a steady pace that elevates your heart rate slightly."
+                    },
+                    {
+                      "timeOffset": 120,
+                      "message": "Two minutes in, you're doing great! Keep walking briskly - this warm-up is essential to prepare your body for the run."
+                    },
+                    {
+                      "timeOffset": 240,
+                      "message": "Just one more minute of warming up. Get ready for your first running interval coming up soon!"
+                    }
+                  ]
+                },
+                {
+                  "type": "interval",
+                  "repeatCount": 6,
+                  "segments": [
+                    {
+                      "type": "run",
+                      "activity": "light jog",
+                      "duration": 60,
+                      "distanceKm": 0.15,
+                      "audio": [
+                        {
+                          "timeOffset": 0,
+                          "message": "Start running now! Keep a comfortable pace where you could still hold a conversation."
+                        },
+                        {
+                          "timeOffset": 45,
+                          "message": "Just 15 seconds left of this run. You're doing great!"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "recovery",
+                      "activity": "walk",
+                      "duration": 90,
+                      "distanceKm": 0.12,
+                      "audio": [
+                        {
+                          "timeOffset": 0,
+                          "message": "Well done! Now walk at a comfortable pace to recover."
+                        },
+                        {
+                          "timeOffset": 60,
+                          "message": "30 seconds of walking left. Get ready for your next running interval."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "cooldown",
+                  "activity": "walk",
+                  "duration": 300,
+                  "distanceKm": 0.4,
+                  "audio": [
+                    {
+                      "timeOffset": 0,
+                      "message": "Great job completing your intervals! Let's cool down with a five-minute walk."
+                    },
+                    {
+                      "timeOffset": 180,
+                      "message": "Two minutes left in your cooldown. Take this time to reflect on what you've accomplished today."
+                    },
+                    {
+                      "timeOffset": 270,
+                      "message": "Almost done! Keep walking for 30 more seconds to complete your first session."
+                    }
+                  ]
+                }
+              ],
+              "tips": [
+                "Focus on completing the session rather than speed",
+                "Wear comfortable shoes with good support",
+                "Stay hydrated before and after your run"
+              ]
+            },
+            {
+              "runNumber": 2,
+              "title": "Building Momentum",
+              "description": "Continue building your running foundation with slightly more intervals",
+              "totalDurationMinutes": 25.5,
+              "estimatedDistanceKm": 2.8,
+              "segments": [
+                {
+                  "type": "warmup",
+                  "activity": "brisk walk",
+                  "duration": 300,
+                  "distanceKm": 0.4,
+                  "audio": [
+                    {
+                      "timeOffset": 0,
+                      "message": "Welcome back! Let's begin with our five-minute warm-up walk."
+                    },
+                    {
+                      "timeOffset": 180,
+                      "message": "Two minutes left in your warm-up. How are you feeling today compared to your first session?"
+                    },
+                    {
+                      "timeOffset": 270,
+                      "message": "Running intervals coming up in 30 seconds. Remember to start at a comfortable pace."
+                    }
+                  ]
+                },
+                {
+                  "type": "interval",
+                  "repeatCount": 7,
+                  "segments": [
+                    {
+                      "type": "run",
+                      "activity": "light jog",
+                      "duration": 60,
+                      "distanceKm": 0.15,
+                      "audio": [
+                        {
+                          "timeOffset": 0,
+                          "message": "Time to run! Find your comfortable pace."
+                        },
+                        {
+                          "timeOffset": 45,
+                          "message": "15 seconds left. You're getting stronger with each step!"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "recovery",
+                      "activity": "walk",
+                      "duration": 90,
+                      "distanceKm": 0.12,
+                      "audio": [
+                        {
+                          "timeOffset": 0,
+                          "message": "And now walk. Notice how your body feels during these recovery periods."
+                        },
+                        {
+                          "timeOffset": 70,
+                          "message": "Next running interval in 20 seconds."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "cooldown",
+                  "activity": "walk",
+                  "duration": 300,
+                  "distanceKm": 0.4,
+                  "audio": [
+                    {
+                      "timeOffset": 0,
+                      "message": "All intervals complete! Let's cool down with a five-minute walk."
+                    },
+                    {
+                      "timeOffset": 240,
+                      "message": "One minute left. Your body is already adapting to this new challenge."
+                    }
+                  ]
+                }
+              ],
+              "tips": [
+                "Try to run at the same pace for each interval",
+                "Pay attention to your breathing rhythm",
+                "It's normal to feel some muscle soreness at this stage"
+              ]
+            },
+            {
+              "runNumber": 3,
+              "title": "Completing Week One",
+              "description": "Final session of week one with maximum intervals",
+              "totalDurationMinutes": 28,
+              "estimatedDistanceKm": 3.1,
+              "segments": [
+                {
+                  "type": "warmup",
+                  "activity": "brisk walk",
+                  "duration": 300,
+                  "distanceKm": 0.4,
+                  "audio": [
+                    {
+                      "timeOffset": 0,
+                      "message": "Welcome to your final session of week one! Starting with our five-minute warm-up."
+                    },
+                    {
+                      "timeOffset": 150,
+                      "message": "You've already completed two sessions this week. You're building a great foundation!"
+                    },
+                    {
+                      "timeOffset": 270,
+                      "message": "30 seconds until we start our running intervals. Today we'll do eight sets!"
+                    }
+                  ]
+                },
+                {
+                  "type": "interval",
+                  "repeatCount": 8,
+                  "segments": [
+                    {
+                      "type": "run",
+                      "activity": "light jog",
+                      "duration": 60,
+                      "distanceKm": 0.15,
+                      "audio": [
+                        {
+                          "timeOffset": 0,
+                          "message": "Start running! Find your rhythm."
+                        },
+                        {
+                          "timeOffset": 30,
+                          "message": "Halfway through this interval. Keep it up!"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "recovery",
+                      "activity": "walk",
+                      "duration": 90,
+                      "distanceKm": 0.12,
+                      "audio": [
+                        {
+                          "timeOffset": 0,
+                          "message": "Great job! Now walk and recover."
+                        },
+                        {
+                          "timeOffset": 75,
+                          "message": "Next running interval in 15 seconds."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "cooldown",
+                  "activity": "walk",
+                  "duration": 300,
+                  "distanceKm": 0.4,
+                  "audio": [
+                    {
+                      "timeOffset": 0,
+                      "message": "Congratulations on completing all your intervals! Let's cool down with a five-minute walk."
+                    },
+                    {
+                      "timeOffset": 180,
+                      "message": "You've completed all three sessions for week one! Be proud of yourself."
+                    },
+                    {
+                      "timeOffset": 270,
+                      "message": "Just 30 seconds left. Next week, we'll increase the running intervals to 90 seconds."
+                    }
+                  ]
+                }
+              ],
+              "tips": [
+                "Celebrate completing your first week!",
+                "Rest at least one day before starting week two",
+                "Notice any improvements in how you feel during and after running"
+              ]
+            }
+          ],
+          "weeklyTips": [
+            "Stay consistent with three runs this week, with rest days in between",
+            "Don't worry about speed or distance at this stage - focus on completing each session",
+            "Proper running shoes can help prevent injury and improve comfort",
+            "Track how you feel after each run in the app's journal feature"
+          ],
+          "achievements": [
+            {
+              "id": "first_run_complete",
+              "title": "First Steps",
+              "description": "Completed your very first running session",
+              "unlockCriteria": "Complete Run 1"
+            },
+            {
+              "id": "week_one_complete",
+              "title": "Foundation Builder",
+              "description": "Completed all three sessions in Week 1",
+              "unlockCriteria": "Complete all runs in Week 1"
+            }
+          ]
+        }
+        
+      ]
+    }
+  ]
+}
